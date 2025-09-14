@@ -1,1 +1,34 @@
-# federicolanaza.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <p>Please use this form to email me.</p>
+
+    <form action="mailto:federico.lanaza@neu.edu.ph" method="post" enctype="text/plain">
+        <table border="1" style="width: 100%; max-width: 600px;">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><textarea id="message" name="message" rows="5" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Send Message">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
